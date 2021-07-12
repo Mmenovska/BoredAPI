@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.gsixacademy.android.boredapi.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_generatorFragment"
+            app:destination="@id/generatorFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/generatorFragment"
+        android:name="com.gsixacademy.android.boredapi.GeneratorFragment"
+        android:label="GeneratorFragment" >
+        <action
+            android:id="@+id/action_generatorFragment_to_activityFragment"
+            app:destination="@id/activityFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/activityFragment"
+        android:name="com.gsixacademy.android.boredapi.ActivityFragment"
+        android:label="ActivityFragment" />
+</navigation>
