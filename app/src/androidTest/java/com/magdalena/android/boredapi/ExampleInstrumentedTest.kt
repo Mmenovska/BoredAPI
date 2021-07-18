@@ -1,4 +1,4 @@
-package com.gsixacademy.android.boredapi
+package com.magdalena.android.boredapi
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

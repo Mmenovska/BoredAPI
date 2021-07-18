@@ -1,18 +1,16 @@
-package com.gsixacademy.android.boredapi
+package com.magdalena.android.boredapi
 
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import android.text.method.LinkMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.gsixacademy.android.boredapi.api.BoredAPI
-import com.gsixacademy.android.boredapi.api.ServiceBuilder
-import com.gsixacademy.android.boredapi.models.ActivityResponse
+import com.magdalena.android.boredapi.api.BoredAPI
+import com.magdalena.android.boredapi.api.ServiceBuilder
+import com.magdalena.android.boredapi.models.ActivityResponse
 import kotlinx.android.synthetic.main.activity_idea.*
 import retrofit2.Call
 import retrofit2.Callback

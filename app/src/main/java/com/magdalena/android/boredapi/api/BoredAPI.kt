@@ -1,9 +1,8 @@
-package com.gsixacademy.android.boredapi.api
+package com.magdalena.android.boredapi.api
 
-import com.gsixacademy.android.boredapi.models.ActivityResponse
+import com.magdalena.android.boredapi.models.ActivityResponse
 import retrofit2.Call
 import retrofit2.http.GET
-import retrofit2.http.Query
 
 interface BoredAPI {
 

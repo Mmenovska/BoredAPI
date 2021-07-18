@@ -1,4 +1,4 @@
-package com.gsixacademy.android.boredapi.api
+package com.magdalena.android.boredapi.api
 
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit

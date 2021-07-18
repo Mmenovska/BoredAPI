@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.gsixacademy.android.boredapi.SplashFragment"
+        android:name="com.magdalena.android.boredapi.SplashFragment"
         android:label="SplashFragment" >
         <action
             android:id="@+id/action_splashFragment_to_generatorFragment"
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/generatorFragment"
-        android:name="com.gsixacademy.android.boredapi.GeneratorFragment"
+        android:name="com.magdalena.android.boredapi.GeneratorFragment"
         android:label="GeneratorFragment" >
         <action
             android:id="@+id/action_generatorFragment_to_activityFragment"
@@ -24,6 +24,6 @@
     </fragment>
     <fragment
         android:id="@+id/activityFragment"
-        android:name="com.gsixacademy.android.boredapi.ActivityFragment"
+        android:name="com.magdalena.android.boredapi.ActivityFragment"
         android:label="ActivityFragment" />
 </navigation>

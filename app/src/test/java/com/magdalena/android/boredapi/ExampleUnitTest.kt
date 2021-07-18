@@ -1,4 +1,4 @@
-package com.gsixacademy.android.boredapi
+package com.magdalena.android.boredapi
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.gsixacademy.android.boredapi.models
+package com.magdalena.android.boredapi.models
 
 class ActivityResponse (
     val activity : String?,
